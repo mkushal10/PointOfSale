@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="02b366576f4048b697438ee77df75208" Name="Diagram1">
+        <EntityTypeShape EntityType="PointOfSaleModel.Category" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.Product" Width="1.5" PointX="3" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.ProductQuantity" Width="1.5" PointX="5.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.Sale" Width="1.5" PointX="6" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.SalesDetail" Width="1.5" PointX="8.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.sysdiagram" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.User" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="PointOfSaleModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="PointOfSaleModel.FK_ProductQuantity_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="PointOfSaleModel.FK_SalesDetail_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="PointOfSaleModel.FK_SalesDetail_Sale" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
